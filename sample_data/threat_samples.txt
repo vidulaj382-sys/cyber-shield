@@ -1,0 +1,30 @@
+CYBER SHIELD - THINGS TO PASTE INTO THE "Attack Detector" PAGE
+==============================================================
+Copy one line into "Paste it here" and press "Check it now".
+
+MALWARE (a harmful program)
+  Please open invoice_march.exe.zip from the finance team
+  The file contains a trojan that steals data
+  Connection to 185.220.101.1 on port 4444
+  powershell -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoA
+
+PHISHING (a fake message that tricks you)
+  URGENT: verify your account now, click here http://bank-login.example
+  Your password has been suspended. Login now to keep your bank account
+  Dear user, it is urgent: click here to verify your account
+
+BRUTE FORCE (a robot guessing passwords)
+  Use the numbers boxes: Wrong tries = 7
+  Or paste a log:
+  login FAILED for admin
+  login FAILED for admin
+  login FAILED for admin
+  login FAILED for admin
+  login FAILED for admin
+
+DDOS (a crowd of fake visitors)
+  Use the numbers boxes: Visitors/sec = 2500
+  Or paste: massive SYN flood detected
+
+CLEAN (nothing wrong - should say CLEAN)
+  Hello team, the meeting is at 3pm in room 12.

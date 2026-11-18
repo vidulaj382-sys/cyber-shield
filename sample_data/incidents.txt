@@ -1,0 +1,8 @@
+1|Fake bank email reached the staff|mail-01|3|0|scanner
+2|Ransomware note found on a laptop|ceo-laptop|4|0|admin
+3|Many wrong passwords on the login page|web-01|3|1|system
+4|Website slow because of too many visitors|web-01|4|1|admin
+5|Backup job failed last night|backup-01|2|0|admin
+6|Firewall software is out of date|fw-01|2|0|admin
+7|USB stick plugged in without asking|reception-pc|1|1|employee
+8|Weak password found on a lab computer|lab-pc-07|1|0|employee

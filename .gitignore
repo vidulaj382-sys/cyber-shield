@@ -1,0 +1,13 @@
+# Built programs
+*.exe
+*.o
+
+# Files the app creates while it runs (they belong to the person using it)
+/*.log
+/*.dat
+/incidents.txt
+/security_report.txt
+vault_*.dat
+
+# Leftovers of the console tests
+test_*

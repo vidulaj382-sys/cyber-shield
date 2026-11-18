@@ -1,0 +1,18 @@
+CYBER SHIELD - LINKS TO PASTE INTO THE "Link Checker" PAGE
+==========================================================
+
+SAFE (score 0-1)
+  https://www.wikipedia.org/wiki/Cat
+  https://www.google.com
+  https://github.com/torvalds/linux
+
+BE CAREFUL (score 2-3)
+  http://example.com
+  https://bit.ly/my-new-game
+  https://cool-site.xyz/home
+
+DANGEROUS (score 4 or more - a problem is added automatically)
+  http://185.220.101.1/verify-your-bank-account/login
+  https://mybank.com@scam.xyz/verify
+  https://evil.example/free-gift
+  http://free-prizes-bank-login.top/verify/account
