@@ -5,6 +5,16 @@ DS2005 Object Oriented Programming project (VIT). A desktop app written in C++17
 It manages IT assets, scans for threats (Malware, Phishing, Brute-Force, DDoS), tracks security
 incidents, produces a security report and keeps an activity log. Two roles (Admin and Employee) decide who may do what.
 
+## Try it in your browser (no install)
+
+**https://vidulaj382-sys.github.io/cyber-shield/**
+
+The `docs/` folder is a website version of the project (HTML, CSS and JavaScript). It follows the same rules as the C++ code
+(threat detection, link checker, risk scores, log analyzer, password strength, Safe Box, employee privacy) and has all 11 pages.
+Log in with `admin / admin123` or `employee / emp123`. Data stays in your browser and resets when you reload, except the Safe Box,
+which is kept scrambled in your browser. Shortcuts: `?as=admin` logs in straight away and `#devices` opens a page, for example
+`.../cyber-shield/?as=admin#attack`. The logic is tested with `node docs/core.test.js`.
+
 ## Project layout
 
 ```
